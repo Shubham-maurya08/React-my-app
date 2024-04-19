@@ -1,0 +1,169 @@
+<!-- ----------------------------------------------------------Day-1 -->
+<!-- //*1
+// function MyFirstComponent(){
+//     return <h2>My first component is here !</h2>
+// }
+
+//*2
+// const MyFirstComponent = function(){
+//     return <h3>My function expression component</h3>
+// }
+
+//*3
+// function MyFirstComponent() {
+//     return React.createElement('div', {}, React.createElement('h2', {}, 'My first component is here!'))
+// }
+
+//*First Component in Detail
+//capital letter
+//must return something
+//JSX syntax (return html)
+//to make our code easier to right
+//backend it is calling function
+
+//* JSX Rules
+//return single element only (one parent element)
+//sementics element -> section, article, header, footer
+//react fragment -> <></> -->
+
+<!-- ----------------------------------------------------------Day-2 -->
+<!-- ----------------------------------------------------------Day-3 -->
+<!-- Inline CSS -->
+<!-- const Book = () => {
+const inlineAuthorStyle = {
+color: '#617d98',
+fontSize: '0.8rem',
+marginTop: '0.5rem',
+}
+return (
+<article className='book'>
+    <img src='https://m.media-amazon.com/images/I/61-hMfd7NGL._SY522_.jpg' alt='' />
+    <h2>The Psychology of Money</h2>
+    <h4 style={inlineAuthorStyle}>Morgan Housel</h4>
+</article>
+)
+} -->
+<!-- Condition with turnery operator -->
+<!-- const Book = () => {
+const title = 'The Psychology of Money'
+const author = 'Morgan Housel'
+const condition = false
+return (
+<article className='book'>
+    <img src='https://m.media-amazon.com/images/I/61-hMfd7NGL._SY522_.jpg' alt='' />
+    <h2>{title}</h2>
+    <h4>{author}</h4>
+    <p>{condition ? 'hello' : 'bye'}</p>
+    <p>{50 - 20}</p>
+</article>
+)
+} -->
+<!-- Props -->
+<!-- const Book = (props) => {
+console.log(props)
+const title = 'The Psychology of Money'
+const author = 'Morgan Housel'
+const imgs = 'https://m.media-amazon.com/images/I/61-hMfd7NGL._SY522_.jpg'
+
+return (
+<article className='book'>
+    <img src={imgs} alt={title} />
+    <h2>{title}</h2>
+    <h4>{author}</h4>
+    <p>{props.name}</p>
+    <p>{props.age}</p>
+</article>
+)
+} -->
+
+<!-- 
+    // const Book = (props) => {
+//   console.log(props)
+//   return (
+//     <article className='book'>
+//       <img src={props.imgs} alt={props.title} />
+//       <h2>{props.title}</h2>
+//       <h4>{props.author}</h4>
+//     </article>
+//   )
+// }
+
+// const Book = (props) => {
+//   const (title,author,imgs) = props
+//   return (
+//     <article className='book'>
+//       <img src={imgs} alt={title} />
+//       <h2>{title}</h2>
+//       <h4>{author}</h4>
+//     </article>
+//   )
+// }
+
+// const Book = ({ title, author, imgs }) => {
+//   return (
+//     <article className='book'>
+//       <img src={imgs} alt={title} />
+//       <h2>{title}</h2>
+//       <h4>{author}</h4>
+//     </article>
+//   )
+//}
+
+//JSX - CSS (inline styles)
+// {} in JSX means going back to js land
+// values is an object with key/ value pairs - capitalized with it ''
+ -->
+
+<!-- 
+    const names = ['Rahul', 'Mohit', 'Vishal']
+
+// const BookList = () => {
+//   console.log(names)
+//   return (
+//     <section>
+//       {names.map((n, i) => {
+//         return (
+//           <div key={i}>
+//             <h2>{n}</h2>
+//           </div>
+//         )
+//       })}
+//     </section>
+//   )
+// }
+ -->
+
+ <!-- Day -- 4
+    const EventExample = () => {
+//   function handleFormInput(e) {
+//     console.log(e.target.name + ' : ' + e.target.value)
+//   }
+//   function handleButtonClick(e) {
+//     console.log(e)
+//     console.log(e.target)
+//     alert('handle button click')
+//   }
+//   function handleSubmit(e) {
+//     e.preventDefault()
+//     console.log('Form Submitted')
+//   }
+//   //value submit backend as {}
+
+//   return (
+//     <section>
+//       <form style={{ margin: '1rem 2rem' }} onSubmit={handleSubmit}>
+//         <h2>Simple Form</h2>
+//         <div>
+//           <input
+//             type='text'
+//             style={{ marginBlock: '1rem' }}
+//             name='emailInput'
+//             onChange={handleFormInput}
+//           />
+//           <button onClick={handleButtonClick}>click me</button>
+//         </div>
+//       </form>
+//     </section>
+//   )
+// }
+  -->
